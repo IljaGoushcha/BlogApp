@@ -1,0 +1,6 @@
+<% @blogs.each do |blog| %>
+  <h3><%= blog.title %></h3>
+  <article><%= blog.body %></article>
+  <author><%= blog.user_name %></author>
+  <time><%= blog.created_at %></time>
+<% end %>
